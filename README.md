@@ -34,17 +34,9 @@ The workspace is visible at `/workspace` in the container.
 Note that this extension doesn't require remote container.
 This extension downloads the Wasm image converted from the container and runs it in the WebAssembly VM in your browser.
 
-You can customize `setting.json` if you want to load other containers.
-
-## Networking
-
-Running the following in the container will get the contents of the GitHub Pages.
-
-```
-$ curl https://ktock.github.io/container2wasm-demo/
-```
-
 HTTP(S) networking is available in the contaienr with restrictions by the browser (CORS-restricted and no control over [Forbidden headers](https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_header_name)). (see also the project [`README`](../README.md)).
+
+You can customize `settings.json` if you want to load other containers.
 
 ## FAQ
 
